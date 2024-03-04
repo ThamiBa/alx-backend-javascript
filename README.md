@@ -55,3 +55,9 @@ Fastify is known for its speed and low overhead.
 
 - **Use a Build Tool**: Tools like Webpack or Babel enhance your development workflow.
 - **Learn About Microservices**: Explore microservices architecture for scalable applications.
+
+## Short Specializations
+
+### Authors &copy;
+
+- BALADI THAMI
