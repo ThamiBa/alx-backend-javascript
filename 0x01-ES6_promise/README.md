@@ -189,7 +189,7 @@ createUser returns a response with the format
 }
 ```
 
-0. Keep every promise you make and only make promises you can keep
+0.Keep every promise you make and only make promises you can keep
 
 Return a Promise using this prototype function getResponseFromAPI()
 
@@ -208,7 +208,7 @@ true
 bob@dylan:~$ 
 ```
 
-1. Don't make a promise...if you know you can't keep it
+1.Don't make a promise...if you know you can't keep it
 Using the prototype below, return a promise. The parameter is a boolean.
 
 ```powershell
@@ -242,7 +242,7 @@ Promise {
 bob@dylan:~$ 
 ```
 
-2. Catch me if you can!
+2.Catch me if you can!
 Using the function prototype below
 
 ```powershell
@@ -270,7 +270,7 @@ Got a response from the API
 bob@dylan:~$ 
 ```
 
-3. Handle multiple successful promises
+3.Handle multiple successful promises
 In this file, import uploadPhoto and createUser from utils.js
 
 Knowing that the functions in utils.js return promises, use the prototype below to collectively resolve all promises and log body firstName lastName to the console.
@@ -293,7 +293,7 @@ photo-profile-1 Guillaume Salva
 bob@dylan:~$ 
 ```
 
-4. Simple promise
+4.Simple promise
 Using the following prototype
 
 ```powershell
@@ -322,7 +322,7 @@ Promise { { firstName: 'Bob', lastName: 'Dylan' } }
 bob@dylan:~$ 
 ```
 
-5. Reject the promises
+5.Reject the promises
 Write and export a function named uploadPhoto. It should accept one argument fileName (string).
 
 The function should return a Promise rejecting with an Error and the string $fileName cannot be processed
@@ -348,7 +348,7 @@ Promise {
 bob@dylan:~$ 
 ```
 
-6. Handle multiple promises
+6.Handle multiple promises
 Import signUpUser from 4-user-promise.js and uploadPhoto from 5-photo-reject.js.
 
 Write and export a function named handleProfileSignup. It should accept three arguments firstName (string), lastName (string), and fileName (string). The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
@@ -375,7 +375,7 @@ Promise { <pending> }
 bob@dylan:~$ 
 ```
 
-7. Load balancer
+7.Load balancer
 Write and export a function named loadBalancer. It should accept two arguments chinaDownload (Promise) and USDownload (Promise).
 
 The function should return the value returned by the promise that resolved the first.
@@ -419,7 +419,7 @@ Downloading from FR is faster
 bob@dylan:~$ 
 ```
 
-8. Throw error / try catch
+8.Throw error / try catch
 Write a function named divideFunction that will accept two arguments: numerator (Number) and denominator (Number).
 
 When the denominator argument is equal to 0, the function should throw a new error with the message cannot divide by 0. Otherwise it should return the numerator divided by the denominator.
@@ -448,7 +448,7 @@ bob@dylan:~$ npm run dev 8-main.js
 bob@dylan:~$ 
 ```
 
-9. Throw an error
+9.Throw an error
 Write a function named guardrail that will accept one argument mathFunction (Function).
 
 This function should create and return an array named queue.
@@ -478,7 +478,7 @@ bob@dylan:~$ npm run dev 9-main.js
 bob@dylan:~$ 
 ```
 
-10. Await / Async
+10.Await / Async
 Import uploadPhoto and createUser from utils.js
 
 Write an async function named asyncUploadUser that will call these two functions and return an object with the following format:
